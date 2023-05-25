@@ -11,6 +11,15 @@ public class Main {
 
         /*
         методи тестів для розуміння як створити тест
+
+        1.only gmail.com mails are valid
+        2. @ should be present
+        3. numbers, special symbols and lowecase letters are allowed only
+        4. email should start from letter
          */
+
+
+
+
     }
 }
