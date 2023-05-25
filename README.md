@@ -13,7 +13,7 @@ JUnit provides a set of annotations, assertions, and test runners that facilitat
 * ***Annotations:***
  JUnit uses annotations to mark methods as test cases or to perform setup and teardown operations. The most commonly used annotations include *@Test, @BeforeEach, @AfterEach, @BeforeAll, and @AfterAll.*
 
-* ***Assertions:*** JUnit provides a set of assertion methods to validate expected results. These assertions help you make assertions about the behavior and output of your code. Some commonly used assertion methods include *assertEquals(), assertTrue(), assertFalse(), assertNull(), assertNotNull(), etc.***
+* ***Assertions:*** JUnit provides a set of assertion methods to validate expected results. These assertions help you make assertions about the behavior and output of your code. Some commonly used assertion methods include *assertEquals(), assertTrue(), assertFalse(), assertNull(), assertNotNull(), etc.*
 
 * ***Test Runners:*** JUnit test runners are responsible for executing the tests and generating test reports. JUnit provides several test runners, including the default runner ***JUnitCore*** and other runners like *Parameterized, Suite, and Categories.*
 
