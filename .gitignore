@@ -36,3 +36,10 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Include Java file`s in src folder
+!src/**/*.java
+
+# include test folder
+!test/**
+
