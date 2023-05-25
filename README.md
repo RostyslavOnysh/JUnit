@@ -1,10 +1,10 @@
 # JUnit
 
-## What is JUnit ?
-## JUnit overview
-## How to write unit test ?
-## JUnit best practice
-## BeforeEach and BeforaAll examplee 
+*  What is JUnit ?
+* JUnit overview
+* How to write unit test ?
+* JUnit best practice
+* BeforeEach and BeforaAll examplee 
 
 
 # JUnit Overview:
