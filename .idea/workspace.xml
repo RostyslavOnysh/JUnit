@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98154c01-4af4-4560-bd07-41b8c6f4b21a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/JUnit/Intro/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/JUnit/Intro/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/JUnit/Intro/BestPractice/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/JUnit/Intro/BestPractice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/JUnit/Intro/before/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/JUnit/Intro/before/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/JUnit/Intro/before/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/JUnit/Intro/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/JUnit/Intro/BestPractice/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/JUnit/Intro/before/service/UserServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/JUnit/Intro/util/StringUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/JUnit/Intro/service/GmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/JUnit/Intro/service/GmailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/JUnit/Intro/service/GmailValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/JUnit/Intro/service/GmailValidatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -49,6 +56,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
@@ -58,8 +66,102 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.JUnit.Intro.before.service" />
+      <recent name="org.JUnit.Intro.BestPractice" />
+      <recent name="org.JUnit.Intro.util" />
+      <recent name="org.JUnit.Intro.service" />
       <recent name="org.JUnit.Intro" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserServiceImplTest">
+    <configuration name="CalculatorTest.division_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.JUnit.Intro.BestPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.JUnit.Intro.BestPractice" />
+      <option name="MAIN_CLASS_NAME" value="org.JUnit.Intro.BestPractice.CalculatorTest" />
+      <option name="METHOD_NAME" value="division_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.JUnit.Intro.before.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.JUnit.Intro.before.service" />
+      <option name="MAIN_CLASS_NAME" value="org.JUnit.Intro.before.service.UserServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.checkEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.JUnit.Intro.before.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.JUnit.Intro.before.service" />
+      <option name="MAIN_CLASS_NAME" value="org.JUnit.Intro.before.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="checkEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.largeAge_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.JUnit.Intro.before.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.JUnit.Intro.before.service" />
+      <option name="MAIN_CLASS_NAME" value="org.JUnit.Intro.before.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="largeAge_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.validUserCase_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.JUnit.Intro.before.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.JUnit.Intro.before.service" />
+      <option name="MAIN_CLASS_NAME" value="org.JUnit.Intro.before.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="validUserCase_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceImplTest" />
+        <item itemvalue="JUnit.UserServiceImplTest.validUserCase_ok" />
+        <item itemvalue="JUnit.UserServiceImplTest.largeAge_ok" />
+        <item itemvalue="JUnit.UserServiceImplTest.checkEmptyList" />
+        <item itemvalue="JUnit.CalculatorTest.division_ok" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,5 +184,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/JUnit/Intro/before/service/UserServiceImpl.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
